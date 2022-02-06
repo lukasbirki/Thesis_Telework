@@ -1,0 +1,21 @@
+% latex table generated in R 4.1.0 by xtable 1.8-4 package
+% Tue Jan 11 11:24:10 2022
+\begin{table}[ht]
+\centering
+\begin{tabular}{rrrrr}
+  \hline
+ & Estimate & 95\% CI Lower & 95\% CI Upper & p-value \\ 
+  \hline
+ACME (control) & -0.00 & -0.00 & 0.00 & 0.80 \\ 
+  ACME (treated) & -0.00 & -0.00 & 0.00 & 0.80 \\ 
+  ADE (control) & 0.05 & -0.08 & 0.18 & 0.48 \\ 
+  ADE (treated) & 0.05 & -0.08 & 0.18 & 0.48 \\ 
+  Total Effect & 0.05 & -0.08 & 0.18 & 0.48 \\ 
+  Prop. Mediated (control) & -0.00 & -0.12 & 0.15 & 0.89 \\ 
+  Prop. Mediated (treated) & -0.00 & -0.12 & 0.15 & 0.89 \\ 
+  ACME (average) & -0.00 & -0.00 & 0.00 & 0.80 \\ 
+  ADE (average) & 0.05 & -0.08 & 0.18 & 0.48 \\ 
+  Prop. Mediated (average) & -0.00 & -0.12 & 0.15 & 0.89 \\ 
+   \hline
+\end{tabular}
+\end{table}

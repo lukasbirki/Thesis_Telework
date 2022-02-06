@@ -1,0 +1,120 @@
+% latex table generated in R 4.1.0 by xtable 1.8-4 package
+% Tue Jan 11 11:24:12 2022
+\begin{table}[ht]
+\centering
+\begin{tabular}{rll}
+  \hline
+ & . & Description \\ 
+  \hline
+1 & numDeriv & Methods for calculating (usually) accurate
+	numerical first and second order derivatives. Accurate calculations 
+	are done using 'Richardson''s' extrapolation or, when applicable, a
+	complex step derivative is available. A simple difference 
+	method is also provided. Simple difference is (usually) less accurate
+	but is much quicker than 'Richardson''s' extrapolation and provides a 
+	useful cross-check. 
+	Methods are provided for real scalar and vector valued functions.  \\ 
+  2 & rmcorr & Compute the repeated measures correlation, a statistical technique
+    for determining the overall within-individual relationship among paired measures
+    assessed on two or more occasions, first introduced by Bland and Altman (1995).
+    Includes functions for diagnostics, p-value, effect size with confidence
+    interval including optional bootstrapping, as well as graphing. Also includes
+    several example datasets. For more details, see Bakdash and Marusich (2017) $<$doi:10.3389/fpsyg.2017.00456$>$. \\ 
+  3 & cowplot & 
+    Provides various features that help with creating publication-quality figures
+    with 'ggplot2', such as a set of themes, functions to align plots and arrange
+    them into complex compound figures, and functions that make it easy to annotate
+    plots and or mix plots with images. The package was originally written for
+    internal use in the Wilke lab, hence the name (Claus O. Wilke's plot package).
+    It has also been used extensively in the book Fundamentals of Data
+    Visualization. \\ 
+  4 & patchwork & The 'ggplot2' package provides a strong API for sequentially 
+    building up a plot, but does not concern itself with composition of multiple
+    plots. 'patchwork' is a package that expands the API to allow for 
+    arbitrarily complex composition of plots by, among others, providing 
+    mathematical operators for combining multiple plots. Other packages that try 
+    to address this need (but with a different approach) are 'gridExtra' and 
+    'cowplot'. \\ 
+  5 & rrtable & Makes documents containing plots and tables from a table of R codes. 
+    Can make "HTML", "pdf('LaTex')", "docx('MS Word')" and "pptx('MS Powerpoint')" documents with or without R code.
+    In the package, modularized 'shiny' app codes are provided. These modules are intended for reuse across applications. \\ 
+  6 & modelsummary & Create beautiful and customizable tables to summarize several
+    statistical models side-by-side. Draw coefficient plots, multi-level
+    cross-tabs, dataset summaries, balance tables (a.k.a. "Table 1s"), and
+    correlation matrices. This package supports dozens of statistical models,
+    and it can produce tables in HTML, LaTeX, Word, Markdown, PDF, PowerPoint,
+    Excel, RTF, JPG, or PNG. Tables can easily be embedded in 'Rmarkdown' or 
+    'knitr' dynamic documents. \\ 
+  7 & sjmisc & Collection of miscellaneous utility functions, supporting data 
+    transformation tasks like recoding, dichotomizing or grouping variables, 
+    setting and replacing missing values. The data transformation functions 
+    also support labelled data, and all integrate seamlessly into a 
+    'tidyverse'-workflow. \\ 
+  8 & sjPlot & Collection of plotting and table output functions for data
+    visualization. Results of various statistical analyses (that are commonly used
+    in social sciences) can be visualized using this package, including simple and
+    cross tabulated frequencies, histograms, box plots, (generalized) linear models,
+    mixed effects models, principal component analysis and correlation matrices, 
+    cluster analyses, scatter plots, stacked scales, effects plots of regression 
+    models (including interaction terms) and much more. This package supports
+    labelled data. \\ 
+  9 & simr & Calculate power for generalised linear mixed models, using
+    simulation. Designed to work with models fit using the 'lme4' package.
+    Described in Green and MacLeod, 2016 $<$doi:10.1111/2041-210X.12504$>$. \\ 
+  10 & lme4 & Fit linear and generalized linear mixed-effects models.
+    The models and their components are represented using S4 classes and
+    methods.  The core computational algorithms are implemented using the
+    'Eigen' C++ library for numerical linear algebra and 'RcppEigen' "glue". \\ 
+  11 & Matrix & A rich hierarchy of matrix classes, including triangular,
+   symmetric, and diagonal matrices, both dense and sparse and with
+   pattern, logical and numeric entries.   Numerous methods for and
+   operations on these matrices, using 'LAPACK' and 'SuiteSparse' libraries. \\ 
+  12 & psych & A general purpose toolbox for personality, psychometric theory and experimental psychology.   Functions are primarily for multivariate analysis and scale construction using factor analysis, principal component analysis, cluster analysis and reliability analysis, although others provide basic descriptive statistics. Item Response Theory is done using  factor analysis of tetrachoric and polychoric correlations. Functions for analyzing data at multiple levels include within and between group statistics, including correlations and factor analysis.   Functions for simulating and testing particular item and test structures are included. Several functions  serve as a useful front end for structural equation modeling.  Graphical displays of path diagrams, factor analysis and structural equation models are created using basic graphics. Some of the functions are written to support a book on psychometric theory as well as publications in personality research. For more information, see the $<$https://personality-project.org/r/$>$ web page. \\ 
+  13 & lavaan & Fit a variety of latent variable models, including confirmatory
+   factor analysis, structural equation modeling and latent growth curve models. \\ 
+  14 & forcats & Helpers for reordering factor levels (including
+    moving specified levels to front, ordering by first appearance,
+    reversing, and randomly shuffling), and tools for modifying factor
+    levels (including collapsing rare levels into other, 'anonymising',
+    and manually 'recoding'). \\ 
+  15 & stringr & A consistent, simple and easy to use set of
+    wrappers around the fantastic 'stringi' package. All function and
+    argument names (and positions) are consistent, all functions deal with
+    "NA"'s and zero length vectors in the same way, and the output from
+    one function is easy to feed into the input of another. \\ 
+  16 & dplyr & A fast, consistent tool for working with data frame
+    like objects, both in memory and out of memory. \\ 
+  17 & purrr & A complete and consistent functional programming
+    toolkit for R. \\ 
+  18 & readr & The goal of 'readr' is to provide a fast and
+    friendly way to read rectangular data (like 'csv', 'tsv', and 'fwf').
+    It is designed to flexibly parse many types of data found in the wild,
+    while still cleanly failing when data unexpectedly changes. \\ 
+  19 & tidyr & Tools to help to create tidy data, where each
+    column is a variable, each row is an observation, and each cell
+    contains a single value.  'tidyr' contains tools for changing the
+    shape (pivoting) and hierarchy (nesting and 'unnesting') of a dataset,
+    turning deeply nested lists into rectangular data frames
+    ('rectangling'), and extracting values out of string columns. It also
+    includes tools for working with missing values (both implicit and
+    explicit). \\ 
+  20 & tibble & Provides a 'tbl\_df' class (the 'tibble') with stricter checking and better formatting than the traditional
+    data frame. \\ 
+  21 & ggplot2 & A system for 'declaratively' creating graphics,
+    based on "The Grammar of Graphics". You provide the data, tell 'ggplot2'
+    how to map variables to aesthetics, what graphical primitives to use,
+    and it takes care of the details. \\ 
+  22 & tidyverse & The 'tidyverse' is a set of packages that work in harmony
+    because they share common data representations and 'API' design. This
+    package is designed to make it easy to install and load multiple
+    'tidyverse' packages in a single step. Learn more about the
+    'tidyverse' at $<$https://www.tidyverse.org$>$. \\ 
+  23 & haven & Import foreign statistical formats into R via the embedded
+    'ReadStat' C library, $<$https://github.com/WizardMac/ReadStat$>$. \\ 
+  24 & xtable & Coerce data to LaTeX and HTML tables. \\ 
+  25 & foreign & Reading and writing data stored by some versions of
+	'Epi Info', 'Minitab', 'S', 'SAS', 'SPSS', 'Stata', 'Systat', 'Weka',
+	and for reading and writing some 'dBase' files. \\ 
+   \hline
+\end{tabular}
+\end{table}

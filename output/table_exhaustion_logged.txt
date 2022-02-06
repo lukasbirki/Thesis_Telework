@@ -1,0 +1,38 @@
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l c c c}
+\hline
+ & Model 1 & Model 2 & Model 3 \\
+\hline
+Intercept                                & $\mathbf{2.16}^{***}$ & $\mathbf{2.24}^{***}$ & $\mathbf{2.25}^{***}$ \\
+                                         & $(0.05)$              & $(0.06)$              & $(0.06)$              \\
+log(Telework)                            & $\mathbf{0.08}$       & $\mathbf{0.08}$       & $\mathbf{0.08}$       \\
+                                         & $(0.04)$              & $(0.05)$              & $(0.06)$              \\
+Digital Fluency                          &                       & $\mathbf{-0.23}^{**}$ & $\mathbf{-0.23}^{**}$ \\
+                                         &                       & $(0.07)$              & $(0.07)$              \\
+Support                                  &                       & $\mathbf{0.10}$       & $\mathbf{0.10}$       \\
+                                         &                       & $(0.05)$              & $(0.05)$              \\
+log(Telework)*Digital Fluency            &                       & $\mathbf{0.04}$       & $\mathbf{-0.03}$      \\
+                                         &                       & $(0.05)$              & $(0.07)$              \\
+log(Telework)*Support                    &                       & $\mathbf{-0.10}$      & $\mathbf{-0.07}$      \\
+                                         &                       & $(0.05)$              & $(0.07)$              \\
+\hline
+Time Dummies                             & No                    & Yes                   & Yes                   \\
+Random Slopes                            & No                    & No                    & Yes                   \\
+AIC                                      & $6446.27$             & $6477.62$             & $6452.79$             \\
+BIC                                      & $6469.71$             & $6559.64$             & $6546.53$             \\
+Log Likelihood                           & $-3219.14$            & $-3224.81$            & $-3210.40$            \\
+Num. obs.                                & $2588$                & $2588$                & $2588$                \\
+Num. groups: person\_id                  & $397$                 & $397$                 & $397$                 \\
+Var: person\_id (Intercept)              & $0.83$                & $0.81$                & $0.81$                \\
+Var: Residual                            & $0.48$                & $0.48$                & $0.46$                \\
+Var: person\_id pmc.telework             & $$                    & $$                    & $0.95$                \\
+Cov: person\_id (Intercept) pmc.telework & $$                    & $$                    & $0.19$                \\
+\hline
+\multicolumn{4}{l}{\scriptsize{$^{***}p<0.001$; $^{**}p<0.01$; $^{*}p<0.05$}}
+\end{tabular}
+\caption{Multilevel Model predicting Emotional Exhaustion (logged Telework)}
+\label{table:coefficients}
+\end{center}
+\end{table}

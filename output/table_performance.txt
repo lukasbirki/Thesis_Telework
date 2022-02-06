@@ -1,0 +1,30 @@
+
+\begin{table}
+\begin{center}
+\begin{tabular}{l c c c}
+\hline
+ & Model 1 & Model 2 & Model 3 \\
+\hline
+Intercept                                  & $4.21^{***}$ & $4.22^{***}$ & $4.22^{***}$ \\
+                                           & $(0.03)$     & $(0.04)$     & $(0.04)$     \\
+Exhaustion                                 & $-0.01$      & $-0.01$      & $-0.01$      \\
+                                           & $(0.01)$     & $(0.01)$     & $(0.02)$     \\
+\hline
+Time Dummies                               & No           & Yes          & Yes          \\
+Random Slopes                              & No           & No           & Yes          \\
+AIC                                        & $4084.01$    & $4126.01$    & $4060.70$    \\
+BIC                                        & $4107.45$    & $4184.59$    & $4131.00$    \\
+Log Likelihood                             & $-2038.01$   & $-2053.00$   & $-2018.35$   \\
+Num. obs.                                  & $2588$       & $2588$       & $2588$       \\
+Num. groups: person\_id                    & $397$        & $397$        & $397$        \\
+Var: person\_id (Intercept)                & $0.40$       & $0.40$       & $0.40$       \\
+Var: Residual                              & $0.19$       & $0.19$       & $0.17$       \\
+Var: person\_id pmc.exhaustion             & $$           & $$           & $0.03$       \\
+Cov: person\_id (Intercept) pmc.exhaustion & $$           & $$           & $-0.04$      \\
+\hline
+\multicolumn{4}{l}{\scriptsize{$^{***}p<0.001$; $^{**}p<0.01$; $^{*}p<0.05$}}
+\end{tabular}
+\caption{Multilevel Model predicting Next-Day Working Performance}
+\label{table:coefficients}
+\end{center}
+\end{table}
